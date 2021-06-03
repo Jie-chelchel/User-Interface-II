@@ -161,16 +161,21 @@ text-align:  center;
 
 footer{
 
-	padding-top: 3rem;
-	padding-bottom: 5rem;
+	padding-top: 2rem;
+	padding-bottom: 0.5rem;
 	margin-bottom: 0;
     text-align: center;
 	background-color: cadetblue;
+	display: flex;
+	flex-direction: column;
+}
+.socialMedia {
+	align-self: flex-end;
 }
 footer div {
 	padding: 2rem;
 }
-footer a{
+.contact a{
 	text-decoration: none;
 	border: 1px solid black;
 	padding: 1rem;
@@ -180,11 +185,25 @@ footer a{
 
 }
 
-footer a:hover{
+.contact a:hover{
 	background-color: lightsteelblue;
 	padding:1rem 1.5rem 1rem 1.5rem;
 
 }
+div.socialMedia{
+	padding: 0;
+	margin: 0;
+
+}
+.socialMedia img{
+	
+	width: 15%;
+	border-radius: 50%;
+	/* position:absolute; */
+
+}
+
+
 
 @media (min-width:1700px) {
 	.projectImg img{
