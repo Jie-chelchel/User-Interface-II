@@ -46,6 +46,7 @@ blockquote, q {
 
 	html{
         font-size:62.5%;
+		max-width: 100%;
 		
     }
     body{
@@ -53,6 +54,7 @@ blockquote, q {
         line-height:1.5;
         color:#4F4F4F; 
 		font-family: Roboto Slab ;
+		box-sizing: border-box;
 		
 	}
 
@@ -69,9 +71,9 @@ header {
     }
 nav a {
     text-decoration: none;
-	padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+	padding: 0.4rem 2rem 0.4rem 2rem;
 	border-radius: 0.6rem;
-
+    margin: 0 1rem 0 1rem;
 	border: 1px solid black;
 }
 section {
@@ -94,39 +96,46 @@ text-align:  center;
 }
 
 .pic img {
-	width: 60%;
-	margin-left: 6rem;
+	
+	margin-left: 12rem;
+	margin-right:0;
+	border-radius: 1rem;
 }
 
-section div>p {
-	padding-top: 2rem;
-	line-height: 1.5;
-	letter-spacing: 1.5px;
+.intro a{
+	padding-bottom: 3rem;
 }
+.intro p {	
+	padding-bottom: 3rem;
 
+}
+.intro {
+	margin-right: 12rem;
+	display: flex;
+	flex-direction: column;
+	align-items:center ;
+}
 
 .pic div {
-	width: 45%;
-	text-align: left;
-	padding: 1.4rem 1.5rem 1.4rem 0rem;
+	width: 48%;
+	padding: 5rem 0 5rem 0;
 
 }
 
-.intro {
-
-}
 .pic {
-	
 	display: flex;
-	justify-content: center;
+	justify-content:center;
 }
+
+
 .projectImg {
 	margin-left: 7rem;
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 }
 .projectImg img{
 	width: 20%;
-	height: 20vh;
+	height: 18vh;
 	padding: 1rem;
 }
 
@@ -135,11 +144,11 @@ footer{
 	padding-top: 3rem;
 	padding-bottom: 5rem;
 	margin-bottom: 0;
-text-align: center;
+    text-align: center;
 	background-color: cadetblue;
 }
 footer div {
-	padding: 1rem;
+	padding: 2rem;
 }
 footer a{
 	text-decoration: none;
@@ -156,3 +165,4 @@ footer a:hover{
 	padding:1rem 1.5rem 1rem 1.5rem;
 
 }
+
