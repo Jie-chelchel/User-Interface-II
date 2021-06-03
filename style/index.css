@@ -75,6 +75,12 @@ nav a {
 	border-radius: 0.6rem;
     margin: 0 1rem 0 1rem;
 	border: 1px solid black;
+	background-color: white;
+}
+
+nav a:hover {
+    
+	background-color: navajowhite;
 }
 section {
 	width: 100%;
@@ -87,9 +93,15 @@ h2{
 	
 }
 .intro button {
+	padding:0.6rem;
 	background-color: skyblue;
 	border-radius: 0.6rem;
 }	
+.intro button:hover {
+	padding:0.6rem;
+	background-color:lightseagreen;
+	border-radius: 0.6rem;
+}
 .intro p{
 	
 text-align:  center;	
@@ -130,6 +142,8 @@ text-align:  center;
 
 .projectImg {
 	margin-left: 7rem;
+	margin-top:3rem;
+	margin-bottom: 6rem;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -138,6 +152,12 @@ text-align:  center;
 	height: 18vh;
 	padding: 1rem;
 }
+.projectImg img:hover{
+	width:30%;
+	height: 25vh;;
+	
+}
+
 
 footer{
 
@@ -164,5 +184,78 @@ footer a:hover{
 	background-color: lightsteelblue;
 	padding:1rem 1.5rem 1rem 1.5rem;
 
+}
+
+@media (min-width:1700px) {
+	.projectImg img{
+
+		height: 60vh;
+		
+		
+	}	
+}
+
+@media (min-width:1500px) {
+	.projectImg img{
+
+		height: 50vh;
+		
+		
+	}	
+}
+@media (min-width:1300px) {
+	.projectImg img{
+
+		height: 24vh;
+		
+		
+	}	
+}
+@media (max-width:900px) {
+	.projectImg img{
+
+		height: 16vh;
+		
+		
+	}	
+}
+@media (max-width:800px) {
+	.projectImg img{
+
+		height: 14vh;
+		
+		
+	}	
+}
+
+@media (max-width:700px) {
+	.projectImg img{
+
+		height: 12vh;
+		
+		
+	}	
+}
+@media (max-width:500px) {
+	.projectImg img{
+
+		height: 8vh;
+		
+		
+	}	
+}
+@media (max-width:700px) {
+	.pic img{
+		margin-left: 1rem;
+	}
+	.pic div{
+		padding:0.5rem;
+	}
+	.pic {
+
+   flex-direction: column;
+   align-items: center;		
+		
+	}	
 }
 
