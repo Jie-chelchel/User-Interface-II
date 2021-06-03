@@ -46,12 +46,14 @@ blockquote, q {
 
 	html{
         font-size:62.5%;
+		
     }
     body{
         font-size:1.6rem;
         line-height:1.5;
         color:#4F4F4F; 
 		font-family: Roboto Slab ;
+		
 	}
 
 header {
@@ -85,10 +87,12 @@ h2{
 .intro button {
 	background-color: skyblue;
 	border-radius: 0.6rem;
+}	
+.intro p{
 	
-
-	
+text-align:  center;	
 }
+
 .pic img {
 	width: 60%;
 	margin-left: 6rem;
@@ -115,4 +119,40 @@ section div>p {
 	
 	display: flex;
 	justify-content: center;
+}
+.projectImg {
+	margin-left: 7rem;
+	display: block;
+}
+.projectImg img{
+	width: 20%;
+	height: 20vh;
+	padding: 1rem;
+}
+
+footer{
+
+	padding-top: 3rem;
+	padding-bottom: 5rem;
+	margin-bottom: 0;
+text-align: center;
+	background-color: cadetblue;
+}
+footer div {
+	padding: 1rem;
+}
+footer a{
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.6rem;
+	transition: 1s;
+
+}
+
+footer a:hover{
+	background-color: lightsteelblue;
+	padding:1rem 1.5rem 1rem 1.5rem;
+
 }
