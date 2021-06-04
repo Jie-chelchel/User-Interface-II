@@ -1,1 +1,279 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/*************************************/
+
+	html{
+        font-size:62.5%;
+		max-width: 100%;
+		
+    }
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        color:#4F4F4F; 
+		font-family: Roboto Slab ;
+		box-sizing: border-box;
+		
+	}
+
+header {
+	width: 100%;
+	height: 15vh;
+	background-color: #789f9e;
+}
+        
+    h1 {
+        font-size:5rem;
+		padding-top: 2rem;
+		padding-bottom: 3rem;
+		font-family: Roboto Slab ;
+    }
+nav a {
+    text-decoration: none;
+	padding: 0.4rem 2rem 0.4rem 2rem;
+	border-radius: 0.6rem;
+    margin: 0 1rem 0 1rem;
+	border: 1px solid black;
+	background-color: white;
+}
+
+nav a:hover {
+    
+	background-color: navajowhite;
+}
+section {
+	width: 100%;
+}
+
+h2{
+	font-size: 4rem;
+	margin-top: 3rem;
+	padding-bottom: 1rem;
+	
+}
+.intro button {
+	padding:0.6rem;
+	background-color: skyblue;
+	border-radius: 0.6rem;
+}	
+.intro button:hover {
+	padding:0.6rem;
+	background-color:lightseagreen;
+	border-radius: 0.6rem;
+}
+.intro p{
+	
+text-align:  center;	
+}
+
+.pic img {
+	width:50%;
+	margin-left: 12rem;
+	margin-right:0;
+	border-radius: 1rem;
+}
+
+.intro a{
+	padding-bottom: 3rem;
+}
+.intro p {	
+	padding-bottom: 3rem;
+
+}
+.intro {
+	margin-right: 12rem;
+	display: flex;
+	flex-direction: column;
+	align-items:center ;
+}
+
+.pic div {
+	width: 48%;
+	padding: 5rem 0 5rem 0;
+
+}
+
+.pic {
+	display: flex;
+	justify-content:center;
+}
+
+
+.projectImg {
+	margin-left: 6%;
+	margin-top:3rem;
+	margin-bottom: 6rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.projectImg img{
+	width: 20%;
+	height: 18vh;
+	padding: 1rem;
+}
+.projectImg img:hover{
+	width:23%;
+	height: 21vh;;
+	
+}
+
+
+footer{
+
+	padding-top: 2rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0;
+    text-align: center;
+	background-color: cadetblue;
+	display: flex;
+	flex-direction: column;
+}
+.socialMedia {
+	align-self: flex-end;
+}
+footer div {
+	padding: 1.5rem;
+}
+.contact button{
+	border: 1px solid black;
+	padding: 0.5rem;
+	background-color: white;
+	border-radius: 0.6rem;
+	transition: 0.5s;
+
+}
+
+.contact button:hover{
+	background-color: lightsteelblue;
+	padding:1rem 1.5rem 1rem 1.5rem;
+
+}
+div.socialMedia{
+	padding: 0;
+	margin: 0;
+
+}
+.socialMedia img{
+	
+	width: 15%;
+	border-radius: 50%;
+
+}
+
+
+
+@media (min-width:1700px) {
+	.projectImg img{
+
+		height: 60vh;
+		
+		
+	}	
+}
+
+@media (min-width:1500px) {
+	.projectImg img{
+
+		height: 50vh;
+		
+		
+	}	
+}
+@media (min-width:1300px) {
+	.projectImg img{
+
+		height: 24vh;
+		
+		
+	}	
+}
+@media (max-width:900px) {
+	.projectImg img{
+
+		height: 16vh;
+		
+		
+	}	
+}
+@media (max-width:800px) {
+	.projectImg img{
+
+		height: 14vh;
+		
+		
+	}	
+}
+
+@media (max-width:700px) {
+	.projectImg img{
+
+		height: 12vh;
+		
+		
+	}	
+}
+@media (max-width:500px) {
+	.projectImg img{
+
+		height: 7vh;
+		
+		
+	}	
+}
+@media (max-width:700px) {
+	.pic img{
+		margin-left: 1rem;
+	}
+	.pic div{
+		padding:0.5rem;
+	}
+	.pic {
+
+   flex-direction: column;
+   align-items: center;		
+		
+	}	
+}
+
